@@ -1,0 +1,229 @@
+/* ===== Estilos generales ===== */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6f7fc;
+    color: #3d2c5e;
+}
+
+/* ===== Encabezado y menú ===== */
+.encabezado {
+    background-color: #6a3fa0;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.encabezado h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.encabezado p {
+    margin: 8px 0 0 0;
+    color: #a8f0e8;
+}
+
+.menu {
+    background-color: #1fb5ac;
+    text-align: center;
+    padding: 12px;
+}
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #4a2380;
+}
+
+/* ===== Contenido ===== */
+.contenido {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.contenido h2 {
+    text-align: center;
+    color: #6a3fa0;
+}
+
+.texto-centro {
+    text-align: center;
+    line-height: 1.6;
+}
+.yo{
+    height: 600px;
+    width: 700px;
+    object-fit: cover;
+    align-items: center;
+    display: block;
+    margin: 0% auto;
+}
+.imagenes{
+    height: 400px;
+    width: 700px;
+    object-fit: cover;
+    align-items: center;
+    display: block;
+    margin: 0% auto;
+    border-radius: 5%;
+}
+
+/* ===== Foto de perfil (inicio) ===== */
+.foto-perfil {
+    display: block;
+
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    border: 6px solid #4fc3f7;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #8e5cd9;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.boton:hover {
+    background-color: #1fb5ac;
+    color: white;
+}
+
+/* ===== Lista de habilidades (grilla de fotos) ===== */
+.lista-habilidades {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.lista-habilidades li {
+    display: inline-block;
+
+    width: 170px;
+    margin: 12px;
+    vertical-align: top;
+}
+
+.lista-habilidades img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 4px solid #4fc3f7;
+}
+
+.lista-habilidades img:hover {
+    border-color: #8e5cd9;
+    opacity: 0.85;
+}
+
+.lista-habilidades a {
+    text-decoration: none;
+    color: #5b2a86;
+    font-weight: bold;
+}
+
+.lista-habilidades p {
+    margin: 8px 0 0 0;
+}
+
+/* ===== Página de cada habilidad ===== */
+.habilidad {
+    background-color: white;
+    max-width: 650px;
+
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 10px;
+    border-top: 6px solid #1fb5ac;
+    text-align: center;
+}
+
+.habilidad img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.habilidad p {
+    text-align: left;
+    line-height: 1.6;
+}
+
+/* ===== Página ¿Quién soy? ===== */
+.texto-largo {
+    background-color: white;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    border-top: 6px solid #8e5cd9;
+}
+
+.texto-largo h2 {
+    text-align: left;
+    color: #6a3fa0;
+    border-bottom: 3px solid #1fb5ac;
+
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+.texto-largo p {
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.indice {
+    background-color: #e0f7f5;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border-left: 6px solid #4fc3f7;
+}
+
+.indice h3 {
+    margin-top: 0;
+    color: #6a3fa0;
+}
+
+.indice a {
+    color: #5b2a86;
+    text-decoration: none;
+}
+
+.indice a:hover {
+    color: #1fb5ac;
+}
+
+.destacado {
+    font-size: 22px;
+
+    font-weight: bold;
+    text-align: center !important;
+    color: #8e5cd9;
+}
+
+/* ===== Pie de página ===== */
+.pie {
+    background-color: #4a2380;
+    color: #a8f0e8;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
+}
